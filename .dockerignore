@@ -1,0 +1,48 @@
+# dependencies
+node_modules
+npm-debug.log*
+
+# testing
+coverage
+
+# next.js
+.next
+out
+
+# production
+build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# README
+README.md
