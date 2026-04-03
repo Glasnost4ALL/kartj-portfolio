@@ -35,6 +35,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Protect images from right-click and drag */
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 /* Hide scrollbar for clean look */
 ::-webkit-scrollbar {
   width: 0px;
